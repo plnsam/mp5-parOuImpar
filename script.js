@@ -1,8 +1,9 @@
-elemento(20);
+elemento(11);
 
 function elemento(valor) {
-  if (valor % 2 === 0) console.log("Par");
-  else {
-    console.log("Impar");
-  }
+  for (i = 0; i <= valor; i++)
+    if (i % 2 === 0) console.log(i, "Par");
+    else {
+      console.log(i, "Impar");
+    }
 }
